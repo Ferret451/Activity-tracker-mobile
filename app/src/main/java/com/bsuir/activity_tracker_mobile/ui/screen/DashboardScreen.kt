@@ -1,20 +1,13 @@
 package com.bsuir.activity_tracker_mobile.ui.screen
 
 import androidx.compose.runtime.Composable
+import com.bsuir.activity_tracker_mobile.R
 import com.bsuir.activity_tracker_mobile.ui.components.SectionScreen
-import com.bsuir.activity_tracker_mobile.ui.viewmodel.DashboardUiState
 
 @Composable
-fun DashboardScreen(uiState: DashboardUiState) {
+fun DashboardScreen() {
     SectionScreen(
-        title = uiState.greeting,
-        subtitle = "Единая панель для активности, питания и личного бюджета.",
-        cards = listOf(
-            "Шаги сегодня" to uiState.todaySteps,
-            "Питание" to uiState.caloriesConsumed,
-            "Сожжено" to uiState.caloriesBurned,
-            "Баланс" to uiState.balance
-        ),
-        hint = uiState.weeklyFocus
+        titleRes = R.string.screen_dashboard_title,
+        purposeRes = R.string.screen_dashboard_purpose
     )
 }

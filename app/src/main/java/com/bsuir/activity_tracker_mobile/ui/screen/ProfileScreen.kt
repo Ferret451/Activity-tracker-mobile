@@ -1,20 +1,15 @@
 package com.bsuir.activity_tracker_mobile.ui.screen
 
 import androidx.compose.runtime.Composable
+import com.bsuir.activity_tracker_mobile.R
 import com.bsuir.activity_tracker_mobile.ui.components.SectionScreen
-import com.bsuir.activity_tracker_mobile.ui.viewmodel.ProfileUiState
+
+private data class LanguageOption(val tag: String, val labelRes: Int)
 
 @Composable
-fun ProfileScreen(uiState: ProfileUiState) {
+fun ProfileScreen() {
     SectionScreen(
-        title = uiState.userName,
-        subtitle = "Профиль пользователя и подключенные источники данных.",
-        cards = listOf(
-            "Возраст" to uiState.age,
-            "Вес" to uiState.weight,
-            "Цель" to uiState.target,
-            "Источники" to uiState.sourcesCount
-        ),
-        hint = uiState.connectedSources
+        titleRes = R.string.screen_profile_title,
+        purposeRes = R.string.screen_profile_purpose
     )
 }

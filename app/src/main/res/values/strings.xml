@@ -1,3 +1,23 @@
 <resources>
     <string name="app_name">Activity Tracker</string>
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_activity">Activity</string>
+    <string name="nav_nutrition">Nutrition</string>
+    <string name="nav_finance">Finance</string>
+    <string name="nav_profile">Profile</string>
+    <string name="screen_purpose_label">Purpose</string>
+    <string name="screen_dashboard_title">Dashboard</string>
+    <string name="screen_dashboard_purpose">Overview of activity, nutrition, and finances.</string>
+    <string name="screen_activity_title">Activity</string>
+    <string name="screen_activity_purpose">Activity tracking screen (steps, distance, workouts).</string>
+    <string name="screen_nutrition_title">Nutrition</string>
+    <string name="screen_nutrition_purpose">Nutrition tracking screen (calories, macros, water).</string>
+    <string name="screen_finance_title">Finance</string>
+    <string name="screen_finance_purpose">Budget and expense tracking screen.</string>
+    <string name="screen_profile_title">Profile</string>
+    <string name="screen_profile_purpose">User profile and connected data sources.</string>
+    <string name="language_label">Language</string>
+    <string name="language_option_system">System default</string>
+    <string name="language_option_english">English</string>
+    <string name="language_option_russian">Русский</string>
 </resources>
