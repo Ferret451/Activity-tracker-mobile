@@ -14,6 +14,7 @@ import com.bsuir.activity_tracker_mobile.ui.navigation.Screen
 import com.bsuir.activity_tracker_mobile.ui.screen.ActivityScreen
 import com.bsuir.activity_tracker_mobile.ui.screen.DashboardScreen
 import com.bsuir.activity_tracker_mobile.ui.screen.FinanceScreen
+import com.bsuir.activity_tracker_mobile.ui.screen.LanguageScreen
 import com.bsuir.activity_tracker_mobile.ui.screen.NutritionScreen
 import com.bsuir.activity_tracker_mobile.ui.screen.ProfileScreen
 
@@ -57,7 +58,14 @@ fun ActivityTrackerApp() {
                 FinanceScreen()
             }
             composable(Screen.Profile.route) {
-                ProfileScreen()
+                ProfileScreen(
+                    onOpenLanguage = { navController.navigate("language") }
+                )
+            }
+            composable("language") {
+                LanguageScreen(
+                    onBack = { navController.popBackStack() }
+                )
             }
         }
     }

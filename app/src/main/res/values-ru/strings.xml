@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Activity Tracker</string>
+    <string name="nav_dashboard">Главная</string>
+    <string name="nav_activity">Активность</string>
+    <string name="nav_nutrition">Питание</string>
+    <string name="nav_finance">Финансы</string>
+    <string name="nav_profile">Профиль</string>
+    <string name="screen_purpose_label">Назначение</string>
+    <string name="screen_dashboard_title">Главная</string>
+    <string name="screen_dashboard_purpose">Обзор активности, питания и финансов.</string>
+    <string name="screen_activity_title">Активность</string>
+    <string name="screen_activity_purpose">Экран отслеживания активности (шаги, дистанция, тренировки).</string>
+    <string name="screen_nutrition_title">Питание</string>
+    <string name="screen_nutrition_purpose">Экран учета питания (калории, макросы, вода).</string>
+    <string name="screen_finance_title">Финансы</string>
+    <string name="screen_finance_purpose">Экран бюджета и расходов.</string>
+    <string name="screen_profile_title">Профиль</string>
+    <string name="screen_profile_purpose">Профиль пользователя и подключенные источники данных.</string>
+    <string name="language_label">Язык</string>
+    <string name="language_option_system">Как в системе</string>
+    <string name="language_option_english">English</string>
+    <string name="language_option_russian">Русский</string>
+    <string name="screen_language_purpose">Выберите язык, который будет использоваться в приложении.</string>
+    <string name="action_back">Назад</string>
+</resources>
