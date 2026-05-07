@@ -2,8 +2,10 @@
 .gradle
 /local.properties
 .idea
+.kotlin
 .DS_Store
 /build
+info
 /captures
 .externalNativeBuild
 .cxx

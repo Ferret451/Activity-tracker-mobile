@@ -5,21 +5,20 @@
     <string name="nav_nutrition">Nutrition</string>
     <string name="nav_finance">Finance</string>
     <string name="nav_profile">Profile</string>
-    <string name="screen_purpose_label">Purpose</string>
     <string name="screen_dashboard_title">Dashboard</string>
-    <string name="screen_dashboard_purpose">Overview of activity, nutrition, and finances.</string>
+    <string name="screen_dashboard_purpose">Home screen of the app.</string>
     <string name="screen_activity_title">Activity</string>
-    <string name="screen_activity_purpose">Activity tracking screen (steps, distance, workouts).</string>
+    <string name="screen_activity_purpose">Activity section of the app.</string>
     <string name="screen_nutrition_title">Nutrition</string>
-    <string name="screen_nutrition_purpose">Nutrition tracking screen (calories, macros, water).</string>
+    <string name="screen_nutrition_purpose">Nutrition section of the app.</string>
     <string name="screen_finance_title">Finance</string>
-    <string name="screen_finance_purpose">Budget and expense tracking screen.</string>
+    <string name="screen_finance_purpose">Finance section of the app.</string>
     <string name="screen_profile_title">Profile</string>
-    <string name="screen_profile_purpose">User profile and connected data sources.</string>
+    <string name="screen_profile_purpose">Your profile screen.</string>
     <string name="language_label">Language</string>
     <string name="language_option_system">System default</string>
     <string name="language_option_english">English</string>
     <string name="language_option_russian">Русский</string>
-    <string name="screen_language_purpose">Choose the language used in the app.</string>
+    <string name="screen_language_purpose">Language settings for the app.</string>
     <string name="action_back">Back</string>
 </resources>
