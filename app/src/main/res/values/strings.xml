@@ -21,4 +21,74 @@
     <string name="language_option_russian">Русский</string>
     <string name="screen_language_purpose">Language settings for the app.</string>
     <string name="action_back">Back</string>
+    <string name="action_continue">Continue</string>
+
+    <!-- Auth -->
+    <string name="auth_login_title">Sign in</string>
+    <string name="auth_register_title">Sign up</string>
+    <string name="auth_email_label">Email</string>
+    <string name="auth_username_label">Username</string>
+    <string name="auth_first_name_label">First name</string>
+    <string name="auth_last_name_label">Last name</string>
+    <string name="auth_password_label">Password</string>
+    <string name="auth_confirm_password_label">Confirm password</string>
+    <string name="auth_login_action">Sign in</string>
+    <string name="auth_register_action">Create account</string>
+    <string name="auth_go_to_register">No account? Sign up</string>
+    <string name="auth_go_to_login">Already have an account? Sign in</string>
+    <string name="auth_login_failed">Sign in failed</string>
+    <string name="auth_register_failed">Sign up failed</string>
+
+    <!-- Generic errors -->
+    <string name="error_server_try_later">Server error. Please try again later</string>
+    <string name="error_http_code">Error %1$d: %2$s</string>
+
+    <!-- HTTP code explanations -->
+    <string name="http_400">bad request</string>
+    <string name="http_401">invalid credentials or authentication required</string>
+    <string name="http_403">access denied</string>
+    <string name="http_404">resource not found</string>
+    <string name="http_409">conflict</string>
+    <string name="http_422">validation error</string>
+    <string name="http_429">too many requests</string>
+    <string name="http_4xx">request error</string>
+    <string name="http_5xx">server error</string>
+    <string name="http_unknown">unknown error</string>
+
+    <!-- Validation -->
+    <string name="validation_email_required">Enter email</string>
+    <string name="validation_email_invalid">Invalid email</string>
+    <string name="validation_username_required">Enter username</string>
+    <string name="validation_first_name_required">Enter first name</string>
+    <string name="validation_last_name_required">Enter last name</string>
+    <string name="validation_password_required">Enter password</string>
+    <string name="validation_password_min_len">Password must be at least %1$d characters</string>
+    <string name="validation_confirm_password_required">Confirm password</string>
+    <string name="validation_passwords_mismatch">Passwords do not match</string>
+    <string name="validation_password_allowed_chars_hint">Allowed characters: a-z, A-Z, 0-9, _</string>
+    <string name="validation_number_invalid">Invalid number</string>
+    <string name="validation_number_positive">Value must be greater than 0</string>
+    <string name="validation_weight_required">Enter weight</string>
+    <string name="validation_height_required">Enter height</string>
+    <string name="validation_age_required">Enter age</string>
+
+    <!-- Onboarding profile -->
+    <string name="onboarding_profile_title">Profile for calculations</string>
+    <string name="onboarding_profile_subtitle">Fill in your data to calculate calories and activity metrics.</string>
+    <string name="onboarding_weight_label">Weight (kg)</string>
+    <string name="onboarding_height_label">Height (cm)</string>
+    <string name="onboarding_age_label">Age</string>
+    <string name="onboarding_sex_label">Sex</string>
+    <string name="onboarding_activity_level_label">Activity level</string>
+    <string name="onboarding_sex_dialog_title">Choose sex</string>
+    <string name="onboarding_activity_dialog_title">Choose activity level</string>
+    <string name="sex_male">Male</string>
+    <string name="sex_female">Female</string>
+    <string name="activity_sedentary">Sedentary</string>
+    <string name="activity_light">Light</string>
+    <string name="activity_moderate">Moderate</string>
+    <string name="activity_high">High</string>
+    <string name="activity_very_high">Very high</string>
+    <string name="profile_load_failed">Failed to load profile</string>
+    <string name="profile_save_failed">Failed to save profile</string>
 </resources>

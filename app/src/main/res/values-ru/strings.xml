@@ -21,4 +21,74 @@
     <string name="language_option_russian">Русский</string>
     <string name="screen_language_purpose">Настройки языка приложения.</string>
     <string name="action_back">Назад</string>
+    <string name="action_continue">Продолжить</string>
+
+    <!-- Auth -->
+    <string name="auth_login_title">Вход</string>
+    <string name="auth_register_title">Регистрация</string>
+    <string name="auth_email_label">Email</string>
+    <string name="auth_username_label">Username</string>
+    <string name="auth_first_name_label">Имя</string>
+    <string name="auth_last_name_label">Фамилия</string>
+    <string name="auth_password_label">Пароль</string>
+    <string name="auth_confirm_password_label">Подтверждение пароля</string>
+    <string name="auth_login_action">Войти</string>
+    <string name="auth_register_action">Создать аккаунт</string>
+    <string name="auth_go_to_register">Нет аккаунта? Регистрация</string>
+    <string name="auth_go_to_login">Уже есть аккаунт? Войти</string>
+    <string name="auth_login_failed">Не удалось войти</string>
+    <string name="auth_register_failed">Не удалось зарегистрироваться</string>
+
+    <!-- Generic errors -->
+    <string name="error_server_try_later">Ошибка на сервере, попробуйте позже</string>
+    <string name="error_http_code">Ошибка %1$d: %2$s</string>
+
+    <!-- HTTP code explanations -->
+    <string name="http_400">некорректный запрос</string>
+    <string name="http_401">неверные учетные данные или требуется вход</string>
+    <string name="http_403">доступ запрещен</string>
+    <string name="http_404">ресурс не найден</string>
+    <string name="http_409">конфликт данных</string>
+    <string name="http_422">ошибка валидации данных</string>
+    <string name="http_429">слишком много запросов</string>
+    <string name="http_4xx">ошибка запроса</string>
+    <string name="http_5xx">ошибка сервера</string>
+    <string name="http_unknown">неизвестная ошибка</string>
+
+    <!-- Validation -->
+    <string name="validation_email_required">Введите email</string>
+    <string name="validation_email_invalid">Некорректный email</string>
+    <string name="validation_username_required">Введите username</string>
+    <string name="validation_first_name_required">Введите имя</string>
+    <string name="validation_last_name_required">Введите фамилию</string>
+    <string name="validation_password_required">Введите пароль</string>
+    <string name="validation_password_min_len">Пароль должен быть минимум %1$d символов</string>
+    <string name="validation_confirm_password_required">Подтвердите пароль</string>
+    <string name="validation_passwords_mismatch">Пароли не совпадают</string>
+    <string name="validation_password_allowed_chars_hint">Допустимые символы: a-z, A-Z, 0-9, _</string>
+    <string name="validation_number_invalid">Некорректное число</string>
+    <string name="validation_number_positive">Значение должно быть больше 0</string>
+    <string name="validation_weight_required">Введите вес</string>
+    <string name="validation_height_required">Введите рост</string>
+    <string name="validation_age_required">Введите возраст</string>
+
+    <!-- Onboarding profile -->
+    <string name="onboarding_profile_title">Профиль для расчётов</string>
+    <string name="onboarding_profile_subtitle">Заполните данные, чтобы рассчитывать калории и показатели активности.</string>
+    <string name="onboarding_weight_label">Вес (кг)</string>
+    <string name="onboarding_height_label">Рост (см)</string>
+    <string name="onboarding_age_label">Возраст</string>
+    <string name="onboarding_sex_label">Пол</string>
+    <string name="onboarding_activity_level_label">Уровень активности</string>
+    <string name="onboarding_sex_dialog_title">Выберите пол</string>
+    <string name="onboarding_activity_dialog_title">Выберите уровень активности</string>
+    <string name="sex_male">Мужской</string>
+    <string name="sex_female">Женский</string>
+    <string name="activity_sedentary">Сидячий</string>
+    <string name="activity_light">Лёгкий</string>
+    <string name="activity_moderate">Умеренный</string>
+    <string name="activity_high">Высокий</string>
+    <string name="activity_very_high">Очень высокий</string>
+    <string name="profile_load_failed">Не удалось загрузить профиль</string>
+    <string name="profile_save_failed">Не удалось сохранить профиль</string>
 </resources>
