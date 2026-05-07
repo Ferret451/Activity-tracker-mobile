@@ -9,9 +9,9 @@ object UiError {
         val api = throwable as? ApiException
         val details = buildList<String> {
             val problem = api?.problem
-            if (!problem?.detail.isNullOrBlank()) add(problem!!.detail!!)
-            if (!problem?.title.isNullOrBlank() && problem.title != problem.detail) add(problem.title!!)
-            problem?.errors?.values
+            if (problem?.detail.isNullOrBlank()) add(problem!!.detail!!)
+            if (problem.title.isNullOrBlank() && problem.title != problem.detail) add(problem.title!!)
+            problem.errors?.values
                 ?.filter { it.isNotBlank() }
                 ?.forEach { add(it) }
         }

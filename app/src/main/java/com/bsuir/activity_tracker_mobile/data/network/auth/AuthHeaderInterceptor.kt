@@ -20,7 +20,7 @@ class AuthHeaderInterceptor(
         if (tokens?.accessToken.isNullOrBlank()) return chain.proceed(request)
 
         val authRequest = request.newBuilder()
-            .header("Authorization", "${tokens!!.tokenType} ${tokens.accessToken}")
+            .header("Authorization", "${tokens.tokenType} ${tokens.accessToken}")
             .build()
 
         return chain.proceed(authRequest)

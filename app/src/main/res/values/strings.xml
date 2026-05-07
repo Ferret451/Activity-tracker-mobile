@@ -65,7 +65,7 @@
     <string name="validation_password_min_len">Password must be at least %1$d characters</string>
     <string name="validation_confirm_password_required">Confirm password</string>
     <string name="validation_passwords_mismatch">Passwords do not match</string>
-    <string name="validation_password_allowed_chars_hint">Allowed characters: a-z, A-Z, 0-9, _</string>
+    <string name="validation_password_allowed_chars_hint">Allowed characters: a–z, A–Z, 0–9, _</string>
     <string name="validation_number_invalid">Invalid number</string>
     <string name="validation_number_positive">Value must be greater than 0</string>
     <string name="validation_weight_required">Enter weight</string>

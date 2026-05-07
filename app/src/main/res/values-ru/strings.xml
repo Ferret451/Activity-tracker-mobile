@@ -65,7 +65,7 @@
     <string name="validation_password_min_len">Пароль должен быть минимум %1$d символов</string>
     <string name="validation_confirm_password_required">Подтвердите пароль</string>
     <string name="validation_passwords_mismatch">Пароли не совпадают</string>
-    <string name="validation_password_allowed_chars_hint">Допустимые символы: a-z, A-Z, 0-9, _</string>
+    <string name="validation_password_allowed_chars_hint">Допустимые символы: a–z, A–Z, 0–9, _</string>
     <string name="validation_number_invalid">Некорректное число</string>
     <string name="validation_number_positive">Значение должно быть больше 0</string>
     <string name="validation_weight_required">Введите вес</string>
